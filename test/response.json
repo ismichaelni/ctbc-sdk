@@ -1,0 +1,148 @@
+// 信用卡授權交易
+{
+  "XID": "13F8455300006332800_TS20140410000003",
+  "AuthRRPID": "13F8455300006332800_TS20140410000003",
+  "ResAmt": "901 100 0",
+  "AuthCode": "001145",
+  "TermSeq": "43",
+  "RetrRef": "007946000043",
+  "RespCode": "00",
+  "ErrCode": "00",
+  "BatchClose": "",
+  "VERSION": "5.0",
+  "SwRevision": "HyPOS Server 5.2 (2007/06/15)",
+  "ERRDESC": "",
+  "currency": "901",
+  "amount": "100",
+  "exponent": "0"
+}
+
+// 信用卡分期付款授權作業
+
+
+// 信用卡紅利付款授權作業
+{
+  "XID": "16694B5300000856368_TS20140414000001",
+  "AuthRRPID": "16694B5300000856368_TS20140414000001",
+  "ResAmt": "901 0 0",
+  "AuthCode": "",
+  "TermSeq": "",
+  "RetrRef": "",
+  "RespCode": "3",
+  "ErrCode": "62",
+  "BatchID": "5",
+  "BatchSeq": "1",
+  "ProdCode": "",
+  "OffsetAmt": "0 0 0",
+  "OriginalAmt": "0 0 0",
+  "UtilizedPoint": "",
+  "AwardedPoint": "",
+  "PointBalance": "",
+  "BatchClose": "",
+  "VERSION": "5.0",
+  "SwRevision": "HyPOS Server 5.2 (2007/06/15)",
+  "ERRDESC": "Failed to get errDesc!"
+}
+
+// 取消授權交易(一般、分期和紅利的授權交易皆適用)
+{
+  "RespCode": "00",
+  "ErrCode": "00",
+  "ResAmt": "901 0 0",
+  "TermSeq": "44",
+  "RetrRef": "007946000044",
+  "BatchClose": "",
+  "VERSION": "5.0",
+  "SwRevision": "HyPOS Server 5.2 (2007/06/15)",
+  "ERRDESC": "",
+  "currency": "901",
+  "amount": "0",
+  "exponent": "0"
+}
+
+// 交易易進入請款動作
+{
+  "ResAmt": "901 100 0",
+  "RetrRef": "007946000049",
+  "RespCode": "00",
+  "ErrCode": "00",
+  "BatchID": "2",
+  "BatchSeq": "6",
+  "BatchClose": "",
+  "VERSION": "5.0",
+  "SwRevision": "HyPOS Server 5.2 (2007/06/15)",
+  "ERRDESC": "",
+  "currency": "901",
+  "amount": "100",
+  "exponent": "0"
+}
+
+// 取消轉入請款的動作
+{
+  "RespCode": "00",
+  "ErrCode": "00",
+  "ResAmt": "901 0 0",
+  "RetrRef": "007946000049",
+  "BatchClose": "",
+  "VERSION": "5.0",
+  "SwRevision": "HyPOS Server 5.2 (2007/06/15)",
+  "ERRDESC": "",
+  "currency": "901",
+  "amount": "0",
+  "exponent": "0"
+}
+
+// 進行退款動作
+{
+  "ResAmt": "901 100 0",
+  "RetrRef": "007946000049",
+  "RespCode": "00",
+  "ErrCode": "00",
+  "BatchClose": "",
+  "BatchID": "3",
+  "BatchSeq": "1",
+  "VERSION": "5.0",
+  "SwRevision": "HyPOS Server 5.2 (2007/06/15)",
+  "ERRDESC": "",
+  "currency": "901",
+  "amount": "100",
+  "exponent": "0"
+}
+
+// 進行取消退款動作
+{
+  "RespCode": "00",
+  "ErrCode": "00",
+  "ResAmt": "901 0 0",
+  "RetrRef": "007946000049",
+  "BatchClose": "",
+  "VERSION": "5.0",
+  "SwRevision": "HyPOS Server 5.2 (2007/06/15)",
+  "ERRDESC": "",
+  "currency": "901",
+  "amount": "0",
+  "exponent": "0"
+}
+
+// 訂單資料查詢
+{
+  "SSL-TYPE": "SSL_INQUIRY",
+  "TX_ATTRIBUTE": "0",
+  "QueryCode": "1",
+  "LID-M": "TS20140410000005",
+  "XID": "ABFA455300006404220_TS20140410000005",
+  "PAN": "412345******3312",
+  "ECI": "06",
+  "AuthAmt": "901 100 0",
+  "RespCode": "0",
+  "ErrCode": "00",
+  "AuthCode": "003313",
+  "TermSeq": "49",
+  "RetrRef": "007946000049",
+  "CurrentState": "10",
+  "BatchID": "2",
+  "BatchSeq": "6",
+  "VERSION": "5.0",
+  "SwRevision": "HyPOS Server 5.2 (2007/06/15)",
+  "ERRDESC": ""
+}

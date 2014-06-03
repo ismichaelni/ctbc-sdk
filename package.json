@@ -1,0 +1,24 @@
+{
+  "name": "ctcb-sdk",
+  "author": "Calvert Yang",
+  "version": "1.0.0",
+  "description": "Chinatrust POS Node.js API Component",
+  "contributors": [
+    "Calvert Yang"
+  ],
+  "keywords": [
+    "sdk",
+    "api",
+    "ctcb"
+  ],
+  "main": "lib/POSAPI",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.2.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
